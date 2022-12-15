@@ -1,0 +1,12 @@
+.conteiner{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box-card{
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 100px;
+}
