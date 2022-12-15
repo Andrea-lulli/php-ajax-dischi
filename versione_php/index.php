@@ -26,13 +26,18 @@ include __DIR__ . '/../database/index.php';
 </head>
 
 <body>
+    <header>
+        <div>
+            <img class="logo" src="https://www.pngplay.com/wp-content/uploads/12/Spotify-Logo-Free-PNG.png" alt="" />
+        </div>
+    </header>
 
 
     <!-- main -->
     <main class="conteiner d-flex ">
         <div class="col-12 d-flex box-card">
             <?php foreach ($database as $element) { ?>
-            <div class="card col-4">
+            <div class="card">
                 <img :src="<?php $element['poster'] ?>" class="" alt="..." />
                 <div class="card-body">
                     <p class="titolo">
