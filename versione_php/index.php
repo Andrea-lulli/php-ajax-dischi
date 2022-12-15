@@ -38,7 +38,7 @@ include __DIR__ . '/../database/index.php';
         <div class="col-12 d-flex box-card">
             <?php foreach ($database as $element) { ?>
             <div class="card">
-                <img :src="<?php $element['poster'] ?>" class="" alt="..." />
+                <img src="<?php echo $element['poster'] ?>" class="" alt="..." />
                 <div class="card-body">
                     <p class="titolo">
                         <?php echo $element['title']; ?>
