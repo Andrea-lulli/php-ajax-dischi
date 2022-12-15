@@ -24,9 +24,21 @@
     <div id="app">
         <header>
             <div>
-                <img class="logo" src="https://www.pngplay.com/wp-content/uploads/12/Spotify-Logo-Free-PNG.png" alt="" />
+                <img class="logo" src="https://www.pngplay.com/wp-content/uploads/12/Spotify-Logo-Free-PNG.png"
+                    alt="" />
             </div>
         </header>
+
+        <div class="generi">           
+            <select name="" id="" v-model="scelta" @change="sceltaGenere">
+                <option value="">Tutti i generi</option>
+                <option :value="elem" v-for="(elem,index) in arrayGenere" :key="index">{{elem}}</option>
+            </select>
+        </div>
+
+
+
+
         <!-- main -->
         <main class="conteiner d-flex">
             <div class="col-12 d-flex box-card">

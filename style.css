@@ -1,52 +1,58 @@
-.conteiner{
+.conteiner {
     width: 70%;
     margin: 0 auto;
 }
 
-.box-card{
+.box-card {
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.card img{
+.card img {
     padding: 15px;
 
-    
-   
+
+
 }
 
-.card{
-    background-color: rgba(46,58,70,255);
+.card {
+    background-color: rgba(46, 58, 70, 255);
     flex-basis: 22%;
-    
+
     margin: 20px 0;
 }
 
-.titolo{
+.titolo {
     text-align: center;
     font-size: 20px;
     color: white;
     font-weight: 700;
 }
 
-.testo{
+.testo {
     text-align: center;
     font-size: 12px;
-    color: rgba(113,123,123,255);
+    color: rgba(113, 123, 123, 255);
 }
 
-body{
-background-color: rgba(30,45,59,255) ;
+body {
+    background-color: rgba(30, 45, 59, 255);
 }
 
 header {
     background-color: rgba(46, 58, 70, 255);
     align-items: center;
     display: flex;
-  }
+}
 
-  .logo{
-      width: 5%;
-      fill: rgba(30, 214, 95, 255) !important;
-    
-  }
+.logo {
+    width: 5%;
+    fill: rgba(30, 214, 95, 255) !important;
+
+}
+
+.generi {
+    margin: 20px 10px;
+    width: 50px;
+
+}
